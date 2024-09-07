@@ -1,1 +1,59 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+    
+--variableparrafo: 2rem;
+--color1: #054702;
+--color-filas: #024744;
+--colores-div-general:#c4b503;
+--ancho-div-general: 500px;
+--margen-div-general: auto;
+--colores-div-secundarios: #031ec4;
+--ancho-div-seg: 200px;
+--margen-div-seg: auto;
+--float-div-general: left;
+--float-div-seg: left;
+--float-div-seg2:up;
+
+
+}
+
+p{
+
+    color: var(--color1);
+    font-size: var(--variableparrafo);
+
+
+}
+
+tr{
+    color: black;
+    background-color: var(--color-filas);
+}
+
+#filas{
+    color: var(--color1);
+}
+
+.general{
+    background-color: var(--colores-div-general);
+    width: var(--ancho-div-general);
+    margin: var(--margen-div-general);
+    float: var(--float-div-general);
+}
+
+.subitem{
+    color: aliceblue;
+    background-color: var(--colores-div-secundarios);
+    width: var(--ancho-div-seg);
+    margin: var(--margen-div-seg);
+    float: var(--float-div-seg);
+
+
+}
+
+.subitem2{
+    background-color: var(--colores-div-secundarios);
+    width: var(--ancho-div-seg);
+    margin: var(--margen-div-seg);
+    float: var(--float-div-seg2);
+}
